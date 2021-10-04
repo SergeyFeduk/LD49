@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Computer
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Outside
+    uniqueID: 1294197347
+    locked: 0
+  - name: BackGround
+    uniqueID: 1361624519
+    locked: 0
+  - name: Precipitation
+    uniqueID: 211282839
+    locked: 0
+  - name: BackWall
+    uniqueID: 2161110283
+    locked: 0
+  - name: Table
+    uniqueID: 1464536513
+    locked: 0
+  - name: InRoom
+    uniqueID: 1470790943
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: OutsideFar
+    uniqueID: 4051112225
+    locked: 0
+  - name: OutsideNear
+    uniqueID: 3919158521
+    locked: 0
+  - name: OutPrecipitation
+    uniqueID: 4253068401
+    locked: 0
+  - name: OverEverything
+    uniqueID: 3275348051
+    locked: 0
