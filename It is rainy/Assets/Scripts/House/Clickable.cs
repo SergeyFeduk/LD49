@@ -15,6 +15,7 @@ public class Clickable : MonoBehaviour
     [SerializeField] private Type type;
     [SerializeField] private GameObject linkable;
     [SerializeField] private GameObject blackout;
+    [SerializeField] private AudioSource source;
 
     private GameObject gamecontroller;
 
@@ -37,6 +38,7 @@ public class Clickable : MonoBehaviour
                 if (blackout!=null){blackout.SetActive(false);}
                 linkable.SetActive(true);
                 if (gamecontroller!=null)gamecontroller.GetComponent<TimeController>().secpermin=0.5f;
+                if (source!=null){source.Play();}
                 break;
             case Type.Switch:
                 if (blackout!=null){blackout.SetActive(false);}
@@ -47,6 +49,7 @@ public class Clickable : MonoBehaviour
                     linkable.SetActive(true);
                     if (gamecontroller!=null)gamecontroller.GetComponent<TimeController>().secpermin=0.5f;
                 }
+                source.Play();
                 break;
             case Type.Message:
                 if (blackout!=null){blackout.SetActive(false);}

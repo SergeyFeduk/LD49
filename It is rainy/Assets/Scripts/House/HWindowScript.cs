@@ -14,6 +14,7 @@ public class HWindowScript : MonoBehaviour
     [SerializeField] private GameObject computermenu;
     [SerializeField] private GameObject computersend;
     [SerializeField] private GameObject computerboard;
+    [SerializeField] private GameObject computermaual;
 
     private Window selectedwindow = Window.Null;
     
@@ -22,6 +23,7 @@ public class HWindowScript : MonoBehaviour
         computermenu.SetActive(true);
         computersend.SetActive(false);
         computerboard.SetActive(false);
+        computermaual.SetActive(false);
     }
 
     public void selectWindow(Window window){

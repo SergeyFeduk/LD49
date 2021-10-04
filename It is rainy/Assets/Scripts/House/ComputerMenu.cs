@@ -8,6 +8,7 @@ public class ComputerMenu : MonoBehaviour{
     [SerializeField] private GameObject computermenu;
     [SerializeField] private GameObject computersend;
     [SerializeField] private GameObject computerboard;
+    [SerializeField] private GameObject computermanual;
 
     [SerializeField] private GameObject tempinp;
     [SerializeField] private GameObject windinp;
@@ -23,11 +24,19 @@ public class ComputerMenu : MonoBehaviour{
     public void SendDataMenu(){
         computermenu.SetActive(false);
         computersend.SetActive(true);
+        computermanual.SetActive(false);
     }
 
     public void BoardMenu(){
         computermenu.SetActive(false);
         computerboard.SetActive(true);
+        computermanual.SetActive(false);
+    }
+
+    public void ManualMenu(){
+        computermenu.SetActive(false);
+        computerboard.SetActive(false);
+        computermanual.SetActive(true);
     }
 
     public void SendData(){

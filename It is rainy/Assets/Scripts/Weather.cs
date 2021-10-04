@@ -117,6 +117,7 @@ public class Weather
         }
         //wetness
         wetness=Mathf.Clamp(prevdayinfo.wetness+Random.Range(-40,40),0,100);
+        if (type==Type.Precipitation) {wetness+=30;}
         //precipitationamount
         if (type==Type.Precipitation){
             switch(precipationtype){
